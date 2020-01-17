@@ -10,7 +10,7 @@
   "gmd:fileIdentifier": {
     "gco:CharacterString": {
       "@xmlns:gco": "http://www.isotc211.org/2005/gco",
-      "#text": "0790a4e9-7d76-4c37-9843-6be28f80b916"
+      "#text": "gw_meta"
     }
   },
   "gmd:language": {
@@ -183,7 +183,7 @@
       "bfs:legendTitle": {
         "gco:CharacterString": {
           "@xmlns:gco": "http://www.isotc211.org/2005/gco",
-          "#text": "ODL brutto 1 h"
+          "#text": "Grundwasser"
         }
       },
       "bfs:printTitle": {
@@ -198,20 +198,20 @@
             "bfs:host": {
               "gco:CharacterString": {
                 "@xmlns:gco": "http://www.isotc211.org/2005/gco",
-                "#text": "https://www.imis.bfs.de"
+                "#text": "http://localhost:8082"
               }
             },
             "bfs:path": {
               "gco:CharacterString": {
                 "@xmlns:gco": "http://www.isotc211.org/2005/gco",
-                "#text": "/ogc/opendata/wms?"
+                "#text": "/geoserver/cjbsample/wms?"
               }
             }
           },
           "bfs:layer": {
             "gco:CharacterString": {
               "@xmlns:gco": "http://www.isotc211.org/2005/gco",
-              "#text": "opendata:odl_brutto_1h"
+              "#text": "cjbsample:grundwasser"
             }
           },
           "bfs:transparent": {

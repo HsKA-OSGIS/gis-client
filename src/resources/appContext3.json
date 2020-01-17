@@ -54,7 +54,10 @@
       "mapLayers": [
 	{
           "uuid": "odl_meta"
-        }
+        },
+	{
+	"uuid":"gw_meta"
+	}
 ], 
       "metadataSearchFields": [
         "title", 
@@ -84,7 +87,7 @@
         "measureBtn"
       ], 
       "urls": {
-        "geoserver-base-url": "http://localhost:8082/geoserver/bfs/", 
+        "geoserver-base-url": "http://localhost:8082/geoserver/geoserver/", 
         "irix-servlet": "https://www.imis.bfs.de/irix/irix-client/IRIXClient", 
         "layerprofile": "https://www.imis.bfs.de/gis_client_configs/layerprofile.json", 
         "layerset": "classic/resources/layerset.json", 
